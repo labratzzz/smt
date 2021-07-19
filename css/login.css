@@ -1,0 +1,150 @@
+.flex-cen-hor {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-cen-ver {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginform {
+	width: 985px;
+	font-family: Roboto;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.login-left {
+	margin-right: 1px;
+	width: 595px;
+}
+
+.login-right {
+	width: 385px;
+}
+
+.login-left-head {
+	width: inherit;
+	height: 45px;
+	background-color: #1E8E5A;
+	border-top-left-radius: 15px;
+
+	color: white;
+	font-size: 29px;
+
+}
+
+.login-right-head {
+	width: inherit;
+	height: 45px;
+	background-color: #1E8E5A;
+	border-top-right-radius: 15px;
+
+	color: white;
+	font-size: 29px;
+}
+
+.login-body {
+	background-color: #F6F6F6;
+	padding-top: 30px;
+	color: #707070;
+}
+
+.login-left .login-body {
+	border-bottom-left-radius: 15px;
+}
+
+.login-right .login-body {
+	border-bottom-right-radius: 15px;
+}
+
+.control-holder-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.login-col {
+	margin-right: 10px;
+}
+
+.control-holder-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-control {
+	margin-bottom: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+.form-control input {
+	width: 230px;
+	height: 32px;
+	border: 1px solid #707070;
+	border-radius: 12px;
+
+	font-family: Roboto;
+	font-size: 18px;
+	color: #707070;
+	padding: 0 10px;
+}
+.form-control input:focus {
+	outline: none;
+	box-shadow: 0 0 5px #3091E5;
+}
+button:focus {
+	outline: none;
+	box-shadow: 0 0 10px #3091E5;
+}
+.form-control label {
+	margin-bottom: 5px;
+}
+
+.form-control-radio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form-control-radio input {
+	height: 18px;
+	width: 18px;
+}
+
+.btn {
+	margin: 10px auto;
+    padding: 2px 30px;
+    color: white;
+    background-color: #1E8E5A;
+    font-size: 21px;
+    cursor: pointer;
+    font-family: Univers LT CYR;
+    border: 3px solid #14613D;
+    border-radius: 27px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.btn:hover {
+	transition: background-color 0.5s;
+	background-color: #14613D;	
+}
+
+.btn:active {
+	transition: all 0.5s;
+	background-color: #000000;
+	border-color: #000000; 	
+}

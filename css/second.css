@@ -1,0 +1,95 @@
+.main-menu {
+	width: 1212px;
+	font-family: Roboto;
+	display: flex;
+}
+
+.ads-smt {
+	width: 832px;
+	margin-right: 1px;
+}
+
+.ads-smt-header {
+	width: 832px;
+	height: 45px;
+	border-top-left-radius: 15px;
+	background-color: #1E8E5A;
+}
+
+.ads-smt-content {
+	width: 832px;
+	height: 300px;
+	font-size: 20px;
+	font-family: Roboto;
+	color:#515151;
+
+	border: 1px solid #515151;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.main-catalog {
+
+}
+
+.main-catalog-header {
+	width: 379px;
+	height: 45px;
+	
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	border-top-right-radius: 15px;
+	background-color: #1E8E5A;	
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-catalog-item {
+	width: 379px;
+	height: 45px;
+
+	display: flex;
+	padding-left: 15px;
+	align-items: center;
+	border-bottom: 2px solid #515151;
+}
+
+.main-catalog-item:hover {
+	transition: background-color 0.5s;
+	background-color:  #1E8E5A;   
+	cursor: pointer;
+}
+
+.main-catalog-item:hover a {
+	transition: color 0.5s;
+	color: white;  
+}
+
+.main-catalog-item:active {
+	background-color:  black;   
+}
+
+.main-catalog-item:active a {
+	color: white;  
+}
+
+
+
+.main-catalog-item a {
+	color: #515151;
+}
+
+.main-catalog-item a:link {
+	color: #515151;
+}
+
+.main-catalog-item a:visited {
+	color: #515151;
+}
